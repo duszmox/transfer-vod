@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get upgrade
+# sudo apt-get upgrade
 sudo apt install ffmpeg
 sudo apt-get install mencoder
 sudo sh -c 'echo "deb https://mkvtoolnix.download/ubuntu/ $(lsb_release -sc) main"
@@ -23,3 +23,5 @@ cd
 wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.mergeVods.sh
 wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.vod.sh
 sudo rm -rf *
+printf "\n\n\n\n"
+echo -e "\e[32mA Telepítés befejeződött"
