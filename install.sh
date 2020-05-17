@@ -20,7 +20,8 @@ sudo rm master.zip
 cd youtube-upload-master
 sudo python setup.py install
 cd 
-wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.mergeVods.sh
+wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.merge2Vods.sh
+wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.merge3Vods.sh
 wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.vod.sh
 sudo rm -rf *
 printf "\n\n\n\n"

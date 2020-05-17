@@ -10,7 +10,7 @@ printf "\n\n"
 echo "Hányadik másodperctől érjen a véget az első VOD? (Ha volt vágás az elejéből azt ki kell vonni ebből az időből) [HH:MM:SS] (0 ha ne vágjon az elejéből)"
 read cut1_from_end
 printf "\n\n"
-echo "Hányadik másodperctől kezdődjön az második VOD? [HH:MM:SS] (0 ha ne vágjon az elejéből)"
+echo "Hányadik másodperctől kezdődjön a második VOD? [HH:MM:SS] (0 ha ne vágjon az elejéből)"
 read cut2_from_start
 printf "\n\n"
 echo "Hányadik másodperctől érjen véget a második VOD? (Ha volt vágás az elejéből azt ki kell vonni ebből az időből) [HH:MM:SS] (0 ha ne vágjon az elejéből)"
