@@ -19,15 +19,15 @@ youtube-dl -f best -o "download.mp4" $vod_url
 
 if [ "$cut_from_start" = "0" ]; then
     if [ "$cut_from_end" = "0" ]; then
-        mencoder -oac pcm -ovc copy download.mp4 -o output.mp4 -mc 0 -noskip
+        mencoder -oac pcm -ovc copy download.mp4 -o output.mp4
     else
-        mencoder -endpos $cut_from_end -oac pcm -ovc copy download.mp4 -o output.mp4 -mc 0 -noskip
+        mencoder -endpos $cut_from_end -oac pcm -ovc copy download.mp4 -o output.mp4
     fi
 else
     if [ "$cut_from_end" = "0" ]; then
-        mencoder -ss $cut_from_start -oac pcm -ovc copy download.mp4 -o output.mp4 -mc 0 -noskip
+        mencoder -ss $cut_from_start -oac pcm -ovc copy download.mp4 -o output.mp4
     else
-        mencoder -ss $cut_from_start -endpos $cut_from_end -oac pcm -ovc copy download.mp4 -o output.mp4 -mc 0 -noskip
+        mencoder -ss $cut_from_start -endpos $cut_from_end -oac pcm -ovc copy download.mp4 -o output.mp4
     fi
 fi
 youtube-upload --title="$title" --privacy="$privacy" output.mp4
