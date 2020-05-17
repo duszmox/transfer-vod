@@ -8,8 +8,8 @@ sudo apt-get install wget
 wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install mkvtoolnix mkvtoolnix-gui
- sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
- sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo apt-get install python-pip
 sudo pip install --upgrade google-api-python-client oauth2client progressbar2
 sudo apt-get install unzip
