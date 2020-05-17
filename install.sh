@@ -24,4 +24,4 @@ wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.mergeVods.sh
 wget https://raw.githubusercontent.com/duszmox/transfer-vod/master/.vod.sh
 sudo rm -rf *
 printf "\n\n\n\n"
-echo -e "\e[32mA Telepítés befejeződött\e[0m"
+echo "\e[32mA Telepítés befejeződött\e[0m"
