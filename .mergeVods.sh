@@ -54,4 +54,4 @@ mkvmerge -o output.mp4 merge1.mp4 \+ merge2.mp4
 youtube-upload --title="$title" --privacy="$privacy" output.mp4
 printf "\n\n"
 rm -rf *
-echo "Sikeresen feltöltődött a videó"
+echo "A folyamat bejeződött!"

@@ -33,4 +33,4 @@ fi
 youtube-upload --title="$title" --privacy="$privacy" output.mp4
 printf "\n\n"
 rm -rf *
-echo "Sikeresen feltöltődött a videó"
+echo "A folyamat bejeződött!"
